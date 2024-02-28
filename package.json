@@ -48,7 +48,9 @@
     "stylelint-config-standard": "^36.0.0"
   },
   
-
+    "scripts": {
+      "commit": "git-cz"
+    },
     "husky": {
       "hooks": {
         "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
